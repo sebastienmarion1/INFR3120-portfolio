@@ -2,6 +2,7 @@
 /* CSS-3 */
 /* color combinations
  #D99437, #23B7D9, #1FA65A, #F2E2CE, #8176D7 */
+ /*The palette for my website I used a navy background and light text for a contrast, and bright accents. I used #0F172A, #1E293B, #F1F5F9, #2DD4BF*/
 @charset "UTF-8";
 
 video
@@ -43,13 +44,13 @@ button:hover
     height: 800px;
     margin-left: auto;
     margin-right: auto;
-    background-color:#D99437;
+    background-color:#0F172A;
 }
 
 header,footer
 {
-    background-color: white;
-    color: red;
+    background-color: #1E293B;
+    color: #F1F5F9;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -84,9 +85,10 @@ figcaption
 #right-column
 {
     width: 100%;
-    height: 600px;
+    /*we used auto for the margin-left and right, so I see it can be applied to height as well to make the design fluid like I've been doing*/
+    height: auto;
     float:none;
-    background-color: antiquewhite;
+    background-color: #0F172A;
 }
 #left-column
 {
@@ -95,11 +97,11 @@ figcaption
     width: 100%;
     height: auto;
     float:none;
-    background-color: silver;
+    background-color: #1E293B;
 }
 h1,h2,h3,h4,h5,h6,p,li {
     margin: 15px;
-    color: #1FA65A;
+    color: #F1F5F9;
 }
 #footer
 {
@@ -112,17 +114,18 @@ h1,h2,h3,h4,h5,h6,p,li {
 #banner
 {
     height:120px;
-    background-color: grey;
+    background-color: #1E293B;
 }
 #banner h1{
     padding-top: 15px;
-    color: #1FA65A;
+    color: white;
 }
 body{
     font-family:JetBrains Mono;
     padding: 0px;
     margin: 0px;
-    background: linear-gradient(to bottom, darkblue 0%, blue 100%);
+    background: linear-gradient(to bottom, #1E293B 0%, #334155 100%);
+    /*found a blue gradient type that I like for the desktop*/
 }
 .box
 {
@@ -141,4 +144,24 @@ background: radial-gradient(ellipse at center,  #45484d 40%,#000000 77%); /* W3C
 {
     background-color: white;
     opacity: 1;
+}
+/*copied from tablet.css, then changed them to be full width for desktop */
+.button {
+    font-size: x-large;
+    text-decoration: none;
+    background-color: #0F172A;
+    /*added a color for the links*/
+    color: lightblue;
+    display: block;
+    width: auto;
+    float: none;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 3px gray;
+    /*took the hover effect shown in class for the buttons and having them turn grey whe selected.*/
+}
+
+.button:hover {
+    box-shadow: 5px 5px 3px black;
 }
