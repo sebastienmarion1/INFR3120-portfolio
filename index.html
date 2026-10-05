@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Responsive Template</title>
+    <title>Sebastien Marion | Home</title>
     <meta name="viewport" content="width=device-width">
     <!--style sheet is for full-size monitor-->
     <link href="full.css" rel="stylesheet" type="text/css" 
@@ -18,18 +18,13 @@
 
 <body>
     <div id="wrapper">
-        <div id="banner">
-            <h1>Fluid Layout Website for [your class nickname]</h1>
-        </div>
-        <div id="left-column">
-            <h3>Links...</h3>
-            <p><a class="button" href="index.html">Home</a></p>
-            <p><a class="button" href="video.html">Video</a></p>
-            <p><a class="button" href="form.html">Feedback</a></p>
-        </div>
+        <header id="banner">
+            <h1>Sebastien Marion</h1>
+        </header>
+        
         <div id="right-column">
-            <h2>Right Column Heading Here </h2>
-            <p>Right column content here </p>
+            <h2>Welcome to My Portfolio</h2>
+            <p>My name is Sebastien Marion, and I am a 3rd year Networking & IT Security student at Ontario Tech University. I teach coding part time in Python and Java to children ages 7-17.</p>
             <div class="box">
                 <p>Box content</p>
             </div>
@@ -50,9 +45,18 @@
             </div>
         </div> <!--The clear class style clears (removes) float-->
         <div class="clear"></div>
-        <div id="footer">
-            <h5>Site by [your class nickname]</h5>
-        </div>
+        <footer id="footer">
+            <!--Moved the navigation links to the bottom of the page, byt putting it in the footer section.-->
+            <nav id="left-column">
+                <h3>Navigation</h3>
+                <!--Modified the links section of the base code to be my navigation section, will do the same for projects-->
+                <p><a class="button" href="index.html">Home</a></p>
+                <p><a class="button" href="about.html">About</a></p>
+                <p><a class="button" href="projects.html">Projects</a></p>
+                <p><a class="button" href="contact.html">Contact Me</a></p>
+            </nav>
+            <h5>Site by Sebastien</h5>
+        </footer>
     </div>
 </body>
 </html>

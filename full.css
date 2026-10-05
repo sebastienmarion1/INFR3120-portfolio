@@ -83,16 +83,18 @@ figcaption
 }
 #right-column
 {
-    width: 600px;
+    width: 100%;
     height: 600px;
-    float:right;
+    float:none;
     background-color: antiquewhite;
 }
 #left-column
 {
-    width: 360px;
-    height: 600px;
-    float:left;
+    /*changing from a set pixel height to a fluid design*/
+/* making the height auto to have once again a fluid design*/
+    width: 100%;
+    height: auto;
+    float:none;
     background-color: silver;
 }
 h1,h2,h3,h4,h5,h6,p,li {
@@ -101,7 +103,7 @@ h1,h2,h3,h4,h5,h6,p,li {
 }
 #footer
 {
-    height: 80px;
+    height: auto;
 }
 .clear
 {
@@ -120,7 +122,7 @@ body{
     font-family:JetBrains Mono;
     padding: 0px;
     margin: 0px;
-    background: linear-gradient(to bottom, red 0%,yellow 100%);
+    background: linear-gradient(to bottom, darkblue 0%, blue 100%);
 }
 .box
 {
