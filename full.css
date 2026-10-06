@@ -165,3 +165,12 @@ background: radial-gradient(ellipse at center,  #45484d 40%,#000000 77%); /* W3C
 .button:hover {
     box-shadow: 5px 5px 3px black;
 }
+
+/*used the example in week 4 to make a fixed position copyright notice, the old one was just in the panel*/
+#copyright {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    margin: 0;
+}
