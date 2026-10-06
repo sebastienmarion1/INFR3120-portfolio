@@ -66,8 +66,8 @@ figure
 {
     position: relative;
     width: 220px;
-    height: 200px;
-    background-color: aliceblue;
+    /*removed the height rule to allow the image to fit in the section*/
+    background-color: #1E293B;
     margin: 5px;
     padding: 5px;
     border: 1px solid black;
@@ -92,7 +92,7 @@ figcaption
 }
 #left-column
 {
-    /*changing from a set pixel height to a fluid design*/
+    /*changing from a set pixel height to a fluid design, using auto*/
 /* making the height auto to have once again a fluid design*/
     width: 100%;
     height: auto;
