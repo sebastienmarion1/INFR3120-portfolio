@@ -39,15 +39,6 @@ h1,h2,h3,h4,h5,h6,p,li {
     background: linear-gradient(-45deg, #1E293B 0%, #334155 100%);
 }
 
-.box {
-    width: 45%;
-    min-height: 120px;
-    float: left;
-    background-color: black;
-    margin: 15px;
-    opacity: 1;
-}
-
 .button {
     font-size: x-large;
     text-decoration: none;

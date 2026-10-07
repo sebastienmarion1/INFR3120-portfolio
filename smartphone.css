@@ -37,14 +37,6 @@
     background: linear-gradient(-45deg, #1E293B 0%, #334155 100%);
     }
 
-    .box {
-        width: 90%;
-        min-height: 120px;
-        background-color: dark-red;
-        margin: 15px;
-        opacity: 1;
-    }
-
     .button {
         font-size: x-large;
         text-decoration: none;
