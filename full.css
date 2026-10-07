@@ -113,8 +113,9 @@ h1,h2,h3,h4,h5,h6,p,li {
 }
 #banner
 {
+    /*used the angled gradient method shown in week 1.*/
     height:120px;
-    background-color: #1E293B;
+    background: linear-gradient(-45deg, #1E293B 0%, #334155 100%);
 }
 #banner h1{
     padding-top: 15px;

@@ -34,7 +34,7 @@
 
     #banner {
         height: 100px;
-        background-color: #1E293B;
+    background: linear-gradient(-45deg, #1E293B 0%, #334155 100%);
     }
 
     .box {
