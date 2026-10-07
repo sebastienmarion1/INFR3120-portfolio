@@ -162,6 +162,11 @@ background: radial-gradient(ellipse at center,  #45484d 40%,#000000 77%); /* W3C
     /*took the hover effect shown in class for the buttons and having them turn grey whe selected.*/
 }
 
+.emaillink {
+    color: lightblue;
+    text-decoration: none;
+}
+
 .button:hover {
     box-shadow: 5px 5px 3px black;
 }

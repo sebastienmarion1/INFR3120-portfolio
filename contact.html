@@ -25,9 +25,47 @@
         <div id="right-column">
             <!--MAIN HEADING-->
             <h2>Contact Me</h2>
-            <p>Placeholder</p>
-            
-        </div> <!--The clear class style clears (removes) float-->
+            <!--Form template from form.html written in class, modified to fit my website, with the help of the week 2 lecture slides.-->
+                <form 
+                    action="mailto:marion.sebastien@ontariotechu.net"
+                    method="post"
+                    enctype="text/plain"
+                    name="form">
+                    <p>
+                        <label for="Fname">First Name :</label>
+                        <input type="text" name="Fname" id="Fname" size="32"
+                        placeholder="Enter your first name" 
+                        required>
+                    </p>
+                    <p>
+                        <label for="Lname">Last Name :</label>
+                        <input type="text" name="Lname" id="Lname" size="32"
+                        placeholder="Enter your last name" 
+                        required>
+                    </p>
+                    <p>
+                        <label for="email">Email :</label>
+                        <input type="email" name="email" id="email" size="32" 
+                        placeholder="Enter your email address" required>
+                    </p>
+                    <!--making a phone number field using the first name paragraph, and converting it to take numbers using tel-->
+                    <p>
+                        <label for="phone">Phone Number :</label>
+                        <input type="tel" name="phone" id="phone" size="32"
+                        placeholder="Enter your phone number"
+                        required>
+                    </p>
+                    <p>
+                        <label for="Comments">Details :</label>
+                        <br>
+                        <textarea name="Comments" id="Comments" cols="60" rows="6"></textarea>
+                    </p>
+
+                    <input type="submit" value="Click here to submit the form">
+                    <input type="reset" value="Click here to reset the form">
+                    </form>
+                        
+            </div> <!--The clear class style clears (removes) float-->
         <div class="clear"></div>
         <footer id="footer">
             <!--Moved the navigation links to the bottom of the page, byt putting it in the footer section.-->
@@ -39,6 +77,12 @@
                 <p><a class="button" href="projects.html">Projects</a></p>
                 <p><a class="button" href="contact.html">Contact Me</a></p>
             </nav>
+            <address>
+                <p>
+                    Contact me at <a class="emaillink" href="mailto:marion.sebastien@ontariotechu.net">
+                        marion.sebastien@ontariotechu.net</a>
+                </p>
+            </address>
             <h5 id="copyright">© 2026 Sebastien Marion. All Rights Reserved.</h5>
         </footer>
     </div>
