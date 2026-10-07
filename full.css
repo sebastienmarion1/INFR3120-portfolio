@@ -161,7 +161,7 @@ background: radial-gradient(ellipse at center,  #45484d 40%,#000000 77%); /* W3C
     box-shadow: 5px 5px 3px gray;
     /*took the hover effect shown in class for the buttons and having them turn grey whe selected.*/
 }
-
+/*created a rule so that I could change the colour of the email link, since it was using the default link colour which was hard to see.*/
 .emaillink {
     color: lightblue;
     text-decoration: none;
