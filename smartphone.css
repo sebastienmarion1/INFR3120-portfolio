@@ -1,6 +1,7 @@
 @media only screen and (max-width : 480px) {
     body {
         color: white;
+        background-color: #0F172A;
         font-family: Verdana, Geneva, Arial, sans-serif;
         padding: 0px;
         margin: 0px;
@@ -10,7 +11,7 @@
         margin-left: 15px;
         margin-top: 0px;
     }
-
+/*changed each part of the phone css to match teh colour scheme of full.css and have no set height to use responsive design*/
     #wrapper {
         width: 100%;
     }
@@ -18,24 +19,22 @@
     #right-column {
         width: 100%;
         float: none;
-        height: 1200px;
-        background-color: DarkOrange;
+        background-color: #0F172A;
     }
 
     #left-column {
         float: none;
-        height: 120px;
         width: 100%;
+        background-color: #1E293B;
     }
 
     #footer {
-        height: 80px;
-        background-color: black;
+        background-color: #1E293B;
     }
 
     #banner {
         height: 100px;
-        background-color: black;
+        background-color: #1E293B;
     }
 
     .box {
@@ -49,10 +48,11 @@
     .button {
         font-size: x-large;
         text-decoration: none;
-        background-color: LightBlue;
+        background-color: #0F172A;
+        color: lightblue;
         display: block;
-        width: 25%;
-        float: left;
+        width: auto;
+        float: none;
         padding: 5px;
         margin: 5px;
         border-radius: 5px;
@@ -62,4 +62,14 @@
     .button:hover {
         box-shadow: 5px 5px 3px black;
     }
+    .emaillink {
+        color: lightblue;
+        text-decoration: none;
+    }
+    /*added this img rule from full.css to keep the picture size consistent as it would take up the entire page when you are on a phone screen*/
+    img
+    {
+        width: 220px;
+    }
+
 }

@@ -1,7 +1,8 @@
 @charset "UTF-8";
-
+/*adapting the tablet and smartphone css files from the lectures to match the colour scheme of the desktop version*/
 body {
     color: white;
+    background-color: #0F172A;
     font-family: Verdana, Geneva, Arial, sans-serif;
     padding: 0px;
     margin: 0px;
@@ -11,34 +12,31 @@ h1,h2,h3,h4,h5,h6,p,li {
     margin-left: 15px;
     margin-top: 0px;
 }
-
+/*modified each part of the tablet css to match the colour scheme and have no set height.*/
 #wrapper {
     width: 100%;
-    height: 800px;
     margin-left: auto;
     margin-right: auto;
-    background-color: DarkGrey;
+    background-color: #0F172A;
 }
 
 #right-column {
     float: none;
-    height: 600px;
-    background-color: DarkOrange;
+    background-color: #0F172A;
 }
 
 #left-column {
     float: none;
-    height: 120px;
+    background-color: #1E293B;
 }
 
 #footer {
-    height: 80px;
-    background-color: black;
+    background-color: #1E293B;
 }
 
 #banner {
     height: 60px;
-    background-color: black;
+    background-color: #1E293B;
 }
 
 .box {
@@ -53,10 +51,11 @@ h1,h2,h3,h4,h5,h6,p,li {
 .button {
     font-size: x-large;
     text-decoration: none;
-    background-color: LightBlue;
+    background-color: #0F172A;
+    color: lightblue;
     display: block;
-    width: 25%;
-    float: left;
+    width: auto;
+    float: none;
     padding: 8px;
     margin: 5px;
     border-radius: 15px;
@@ -69,4 +68,14 @@ h1,h2,h3,h4,h5,h6,p,li {
 
 .clear {
     clear: both;
+}
+
+.emaillink {
+    color: lightblue;
+    text-decoration: none;
+}
+
+img
+{
+    width: 220px;
 }
