@@ -113,7 +113,7 @@ h1,h2,h3,h4,h5,h6,p,li {
 }
 #banner
 {
-    /*used the angled gradient method shown in week 1.*/
+    /*used the angled gradient method shown in week 1. Applied to every css file*/
     height:120px;
     background: linear-gradient(-45deg, #1E293B 0%, #334155 100%);
 }
