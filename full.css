@@ -54,14 +54,7 @@ header,footer
     padding-top: 5px;
     padding-bottom: 5px;
 }
-aside
-{
-    background-color: beige;
-    float: right;
-    width: 300px;
-    margin: 5px;
-    padding: 5px;
-}
+
 figure
 {
     position: relative;
@@ -76,12 +69,7 @@ img
 {
     width: 220px;
 }
-figcaption
-{
-    position: bottom;
-    background-color: #000000;
-    color: aliceblue;
-}
+
 #right-column
 {
     width: 100%;
